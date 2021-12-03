@@ -14,7 +14,7 @@
     </properties>
 
     <dependencies>
-        <!--    test测试    -->
+        <!--    junit测试依赖    -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -34,6 +34,7 @@
             <artifactId>shiro-core</artifactId>
             <version>1.7.1</version>
             <exclusions>
+                 <!-- shiro-core忽略org.slf4j这个依赖不会冲突依赖 -->
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
                     <groupId>org.slf4j</groupId>
