@@ -5,6 +5,7 @@ import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.text.IniRealm;
 import org.junit.Test;
 
+//测试Shiro的环境是否搭建成功
 public class ShiroTest {
      
      @Test
