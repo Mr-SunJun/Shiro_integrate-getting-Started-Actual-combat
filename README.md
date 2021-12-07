@@ -2,7 +2,7 @@
 ##  <p align="center"> 目录结构(记录每天Maven项目)</p>
 [1、i-shiro-gettingstarted-01(第一天)](#1、i-shiro-gettingstarted-01)
 <br/>
-[2、i-shiro-gettingstarted-02(第二天)](#1、i-shiro-gettingstarted-01)
+[2、i-shiro-gettingstarted-02(第二天)](#2、i-shiro-gettingstarted-02)
 
 
 
