@@ -1,7 +1,8 @@
 #   <p align="center">  Shiro_integrate_gettingStarted_Actualcombat</p>
 ##  <p align="center"> 目录结构(记录每天Maven项目)</p>
 [1、i-shiro-gettingstarted-01(第一天)](#1、i-shiro-gettingstarted-01)
-
+<br/>
+[2、i-shiro-gettingstarted-02(第二天)](#1、i-shiro-gettingstarted-01)
 
 
 
@@ -35,5 +36,48 @@
          |               |-- gettingstarted
          |                   |-- shiro
          |                       |-- ShiroTest.java (ShiroTest这个类使用了SecurityUtils测试shiro的环境是否搭建成功)
+ ```
+ 
+ 
+<span id="2、i-shiro-gettingstarted-02">2、i-shiro-gettingstarted-02(第二天)</span>
+ ```
+ 详情讲解请进入到这个i-shiro-gettingstarted-02这个项目中
+ |-- i-shiro-gettingstarted-02
+    |-- pom.xml
+    |-- .idea
+    |   |-- .gitignore
+    |   |-- compiler.xml
+    |   |-- jarRepositories.xml
+    |   |-- misc.xml
+    |   |-- runConfigurations.xml
+    |   |-- workspace.xml
+    |   |-- codeStyles
+    |   |   |-- codeStyleConfig.xml
+    |   |   |-- Project.xml
+    |   |-- inspectionProfiles
+    |       |-- Project_Default.xml
+    |-- src
+        |-- main
+        |   |-- java
+        |   |   |-- com
+        |   |       |-- gettingstarted
+        |   |           |-- common
+        |   |           |   |-- util
+        |   |           |       |-- ShiroUtil.java
+        |   |           |-- sys
+        |   |               |-- model
+        |   |               |   |-- User.java
+        |   |               |-- shiro
+        |   |                   |-- ShiroRealm.java
+        |   |-- resources
+        |       |-- log4j2.xml
+        |       |-- shiro.ini
+        |-- test
+            |-- java
+                |-- com
+                    |-- gettingstarted
+                        |-- shiro
+                            |-- ShiroTest.java
+
  ```
 
